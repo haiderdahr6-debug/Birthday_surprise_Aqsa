@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#17132d">
+  <title>Happy Birthday Aqsa ✨</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="stars" aria-hidden="true"></div>
+  <div class="floating-hearts" aria-hidden="true"></div>
+
+  <main>
+    <section class="intro" id="intro">
+      <div class="envelope" id="openCard">
+        <div class="envelope-icon">💌</div>
+        <p class="eyebrow">A little something for you</p>
+        <h1>Dear Aqsa</h1>
+        <p class="intro-note">A surprise made with love, just for you.</p>
+        <button class="primary-btn" id="openButton">
+          Open your surprise <span>♡</span>
+        </button>
+      </div>
+    </section>
+
+    <div id="birthdaySite" class="hidden">
+
+      <section class="hero section-wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">A day made brighter because you were born</p>
+
+          <h1>
+            Happy Birthday,<br>
+            <span>Aqsa</span> <i>♡</i>
+          </h1>
+
+          <p class="sub">
+            To my best friend of <strong>10 beautiful years</strong> ✨
+          </p>
+
+          <p class="hero-message">
+            Ten years of memories, laughter, silly moments and a friendship
+            I will always be thankful for. Today is all about you!
+          </p>
+
+          <a class="primary-btn" href="#memories">
+            Explore our memories <span>↓</span>
+          </a>
+        </div>
+
+        <div class="hero-photo-frame">
+          <div class="photo-glow"></div>
+          <img src="images/photo1.jpg"
+               alt="A favourite memory with Aqsa"
+               class="hero-photo">
+          <span class="photo-caption">my favourite person ♡</span>
+        </div>
+      </section>
+
+      <section class="countdown-section section-wrap">
+        <p class="eyebrow">The celebration begins in</p>
+        <h2>Counting down to your day</h2>
+
+        <div class="countdown" id="countdown">
+          <div>
+            <strong id="days">00</strong>
+            <span>Days</span>
+          </div>
+
+          <div>
+            <strong id="hours">00</strong>
+            <span>Hours</span>
+          </div>
+
+          <div>
+            <strong id="minutes">00</strong>
+            <span>Minutes</span>
+          </div>
+
+          <div>
+            <strong id="seconds">00</strong>
+            <span>Seconds</span>
+          </div>
+        </div>
+
+        <p class="date-line">09 December · Aqsa's special day ✨</p>
+      </section>
+
+      <section class="memories section-wrap" id="memories">
+        <p class="eyebrow">Little pieces of forever</p>
+        <h2>Our Memory Lane</h2>
+
+        <p class="section-intro">
+          Every picture holds a moment, and every moment is special
+          because it has you in it.
+        </p>
+
+        <div class="gallery">
+          <figure>
+            <img src="images/photo2.jpg" alt="Friendship memory 1">
+            <figcaption>Golden moments</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo7.jpg" alt="Friendship memory 2">
+            <figcaption>Our kind of happiness</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo4.jpg" alt="Friendship memory 3">
+            <figcaption>Little adventures</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo8.jpg" alt="Friendship memory 4">
+            <figcaption>Unforgettable days</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo10.jpg" alt="Friendship memory 5">
+            <figcaption>Always laughing</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo5.jpg" alt="Friendship memory 6">
+            <figcaption>Just us</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo11.jpg" alt="Friendship memory 7">
+            <figcaption>Favourite memories</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo3.jpg" alt="Friendship memory 8">
+            <figcaption>Side by side</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo6.jpg" alt="Friendship memory 9">
+            <figcaption>More memories to make</figcaption>
+          </figure>
+
+          <figure>
+            <img src="images/photo9.jpg" alt="Friendship memory 10">
+            <figcaption>Ten years and counting</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="reasons section-wrap">
+        <p class="eyebrow">A few words from my heart</p>
+        <h2>10 years, countless reasons to smile</h2>
+
+        <p class="section-intro">
+          Our friendship deserves more than one message,
+          so here are some little reminders.
+        </p>
+
+        <div class="message-grid" id="messageGrid"></div>
+      </section>
+
+      <section class="wish-section section-wrap">
+        <div class="wish-card">
+          <div class="cake">🎂</div>
+
+          <p class="eyebrow">Make a little wish</p>
+          <h2>May your year sparkle, Aqsa</h2>
+
+          <p>
+            May Allah bless you with happiness, good health, success
+            and countless beautiful moments. May all the kind wishes
+            in your heart come true. You deserve the very best,
+            today and always.
+          </p>
+
+          <button class="primary-btn" id="wishButton">
+            Send you a little sparkle ✨
+          </button>
+
+          <p class="wish-result" id="wishResult"></p>
+        </div>
+      </section>
+
+      <footer>
+        <p>Made with lots of love for Aqsa <span>♡</span></p>
+        <p class="footer-small">
+          10 years of friendship · and many more to come
+        </p>
+      </footer>
+
+    </div>
+  </main>
+
+  <div class="lightbox hidden" id="lightbox">
+    <button class="close-lightbox" id="closeLightbox"
+            aria-label="Close">×</button>
+    <img id="lightboxImage" src="" alt="Memory enlarged">
+  </div>
+
+  <audio id="birthdaySong" src="song.mp3" loop></audio>
+
+  <button class="music-button hidden" id="musicButton"
+          aria-label="Play or pause music">♫</button>
+
+  <script src="script.js"></script>
+</body>
+                           </html>
